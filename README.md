@@ -2,35 +2,29 @@ This tool works on any Android devices without root.
 
 ## Install on Termux :
 ```
-pkg update && pkg upgrade
-pkg install python
-pkg install python2
-pkg install git
-pkg install pip
-pkg install pip2
-pip2 install requests
-pip2 install mechanize
-git clone https://github.com/REFAT-156/Obfucated.git
+# INSTALL
 ```
-## Install on Terminal :
+$ pkg update && pkg upgrade
+$ pkg install git
 ```
-apt update && apt upgrade
-apt install python
-apt install python2
-apt install git
-apt install pip
-apt install pip2
-pip2 install requests
-pip2 install mechanize
-git clone https://github.com/REFAT-156/Obfucated.git
+# DOWNLOAD
+```
+git clone https://github.com/REFAT-156/Obfucated
+```
+# MAIN
+```
+cd Obfucated
+ls
+```
+# USAGE py2
+```
+python2 Obfucated.py file.py
+```
+# USAGE py3
+```
+python Obfucated.py file.py
+```
 
-```
-
-## Tools Run :
-```
-ls && cd Obfucated && ls
-python Obfucated.py
-```
 
 *   USERNAME : NO USERNAME ❤️ ENJOY 👊
 *   Passwords :  NO PASSWORD ❤️ ENJOY 👊
